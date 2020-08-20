@@ -1,4 +1,4 @@
-                             # CHAT-APP #
+ # Chat-app
                                
   This app has been created by using :
      
