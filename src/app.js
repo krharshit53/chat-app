@@ -5,8 +5,8 @@ const socketio = require('socket.io')
 const Filter=require('bad-words')
 const app = express()
 const server = http.createServer(app)
- const {generateMessage,genrateLocationmessage} =require('./utils/index')
- const {addUser,removeUser,getUser,getUsersInRoom}=require('./utils/users')
+ const {generateMessage,genrateLocationmessage} =require('./src/utils/index')
+ const {addUser,removeUser,getUser,getUsersInRoom}=require('./src/utils/users')
 const io = socketio(server)
 
 const port = process.env.PORT || 3000
